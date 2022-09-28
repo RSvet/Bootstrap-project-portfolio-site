@@ -1,0 +1,29 @@
+/*navigation bar*/
+nav{
+    z-index: 2;
+}
+
+button.navbar-toggler.menu {
+    background-color: rgb(27,188,156)!important;
+    font-size: 15px;
+    padding: 15px;
+    color:white!important;
+}
+
+.nav-item {
+    font-size: 15px;
+    padding: 8px;
+    font-weight: bold!important;       
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgba(27,188,156)
+}
+
+/*footer part*/
+.footer {
+    background-color: rgb(26,37,47);
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
