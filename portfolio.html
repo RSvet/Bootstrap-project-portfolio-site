@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">           
+        <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <!--navigation bar-->                  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary pt-3 pb-3 position-fixed top-0 col-12">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">SVETLANA RADIŠIĆ</a>
+                <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenuOptions" aria-controls="navbarMenuOptions" aria-expanded="false"
+                    aria-label="Toggle navigation"><span>MENU </span><i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenuOptions">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html#contact">CONTACT</a>                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--what we offer part-->
+        <div class="container-fluid offer-part">
+            <p class="text-secondary mini-headline mt-5 mt-lg-0">SERVICES</p>
+            <h1>What We Offer</h1>
+            <div class="container mb-5 mb-lg-0">                
+                <div class="row gap-4 gap-md-0">
+                    <div class="col-lg-3 col-md-6 col-wrap">
+                        <div class="icon-container">
+                            <i class="fas fa-mobile-alt icon-sign"></i>
+                        </div>
+                        <div>                
+                            <p class="mini-title">Responsive</p>
+                            <p class="desc">Looks great on any screen size!</p>
+                        </div>                        
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-wrap">
+                        <div class="icon-container">
+                            <i class="fa far-regular fa-pencil icon-sign"></i>
+                        </div>                
+                        <div>
+                            <p class="mini-title">Redesigned</p>
+                            <p class="desc">Freshly redesigned for Bootstrap 5.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-wrap">
+                        <div class="icon-container">
+                            <i class="fa fa-light fa-thumbs-up icon-sign"></i>
+                        </div>                
+                        <div>
+                            <p class="mini-title">Favorited</p>
+                            <p class="desc">Millions of users <i class="fa-solid fa-heart"></i> Start Bootstrap!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-wrap">
+                        <div class="icon-container">
+                            <i class="fa-sharp fa-solid fa-question icon-sign"></i>
+                        </div>                
+                        <div>
+                            <p class="mini-title">Question</p>
+                            <p class="desc">I mustache you a question...</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>    
+        </div>
+
+        <!--recent projects part with images-->
+        <div class="container-fluid projects-part">
+            <p class="text-secondary mini-headline">PORTFOLIO</p>
+            <h1 id="green-headline">Recent Projects</h1>
+            <div class="container">
+                <div class="row">                    
+                    <div class="col-lg-6 project-container mb-3  mb-lg-0">                                             
+                        <img class="img-project img-fluid" src="img/portfolio-1.jpg" alt="laptop with yellow mug">
+                        <div class="img-text">
+                            <p class="head">STATIONARY</p>
+                            <p>A yellow pencil with envelopes on a clean, blue backdrop!</p>                    
+                        </div>
+                        <div class="overlay"></div>                        
+                    </div>
+                    <div class="col-lg-6 project-container  mb-3  mb-lg-0">                        
+                        <img class="img-project img-fluid" src="img/portfolio-2.jpg" alt="hand on a keyboard">
+                        <div class="img-text">
+                            <p class="head">ICE CREAM</p>
+                            <p>A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                        </div>
+                        <div class="overlay"></div>                    
+                    </div>
+                    <div class="col-lg-6 project-container mb-3  mb-lg-0">
+                        <img class="img-project img-fluid" src="img/portfolio-3.jpg" alt="workplace">
+                        <div class="img-text">
+                            <p class="head">STRAWBERRIES</p>
+                            <p>Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="col-lg-6 project-container mb-3  mb-lg-0">
+                        <img class="img-project img-fluid" src="img/portfolio-4.jpg" alt="computer monitors">
+                        <div class="img-text">
+                            <p class="head">WORKSPACE</p>
+                            <p>A yellow workspace with some scissors, pencils, and other objects.</p>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+
+        <!--location and social info-->        
+        <div class="container-fluid wrap-social align-items-center">
+            <div class="container row m-auto display-flex justify-content-center align-items-start pt-5 pb-5 gap-5 gap-lg-0">
+
+                <div class="col-lg-4 text-center div-social gap-3">
+                    <h5>LOCATION</h5>
+                    <div>
+                    <p>SMARTINIT Novi Sad</p>
+                    <p>Serbia</p> 
+                    </div>                  
+                </div>
+
+                <div class="col-lg-4 text-center div-social gap-3">
+                    <h5>AROUND THE WEB</h5>
+                    <div id="icons-all">
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-facebook-f soc-icon"></i>
+                        </div>
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-twitter soc-icon"></i>
+                        </div>
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-linkedin-in soc-icon"></i>
+                        </div>
+                        <div class="icon-wrapper">
+                        <i class="fa-brands fa-dribbble"></i>
+                        </div> 
+                    </div>                   
+                </div>
+
+                <div class="col-lg-4 text-center div-social gap-3">
+                    <h5>ABOUT SMARTINIT</h5>
+                    <p>PanonIT Code Academy -> <a href="">Start Course</a>.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--footer part-->
+        <footer class="container-fluid footer text-center">
+            <p> Copyright &copy; Svetlana Radišić 2022</p>
+        </footer>        
+    </body>
+</html>
