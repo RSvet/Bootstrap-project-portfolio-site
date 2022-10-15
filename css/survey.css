@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(27,188,156)!important;
+}
+
+.container-survey {
+     margin-top: 150px;
+}
+
+#portfolio {
+    font-style:italic;
+    font-weight: 600;
+    font-size: 25px;  
+    margin-bottom: 0; 
+}
+
+#headline {
+    font-size: 40px;   
+}
+
+.btn-quiz{
+    padding: 5px 10px!important;
+    border-radius: 0!important;
+    border: none!important;    
+}
+#q-counter{
+    background-color: rgb(176,229,219);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+.radbtn-answ {
+    
+    background-color: rgb(176,229,219); 
+    border: 1px solid black;
+    position: relative;
+    display: block;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+ input[type=radio] {
+     width: 13px;
+     height: 13px;
+} 
+.answer {
+    position: absolute;
+    top: 12px;
+    left: 35px;   
+   
+}
+
+div.radbtn-answ > label {
+    display: block;
+    margin-left: 20px;
+    
+}
+
+.other-text {
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+#floatingInput{
+    border:2px solid black;
+    box-shadow: none!important;
+}
+
+#middle {
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+}
+
+#other {
+    display: none;
+}
+
+.smile-symbol{
+    color:white;
+    font-size: 100px;
+} 
