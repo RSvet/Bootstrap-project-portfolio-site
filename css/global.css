@@ -42,8 +42,6 @@ button.navbar-toggler.menu {
     justify-content: center
 }
 
-
-
 .icon-wrapper {
     width: 38px;
     height: 30px;
@@ -66,5 +64,7 @@ button.navbar-toggler.menu {
     background-color: rgb(26,37,47);
     color: white;
     padding: 20px;
-    font-size: 12px;        
+    font-size: 12px;    
+      
 }
+

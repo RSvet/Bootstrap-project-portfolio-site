@@ -1,0 +1,75 @@
+{
+  "kursevi": [
+    {
+      "id": 1,
+      "course": "Osnove programiranja",
+      "startingDate": "01.04.2022",
+      "duration": "20",
+      "price": "250"
+    },
+    {
+      "id": 2,
+      "course": "Napredno programiranje",
+      "startingDate": "01.04.2022",
+      "duration": "20",
+      "price": "250"
+    },
+    {
+      "id": 3,
+      "course": "Web programiranje - Backend",
+      "startingDate": "01.05.2022",
+      "duration": "30",
+      "price": "350"
+    },
+    {
+      "id": 4,
+      "course": "Web programiranje - Frontend",
+      "startingDate": "01.05.2022",
+      "duration": "30",
+      "price": "350"
+    },
+    {
+      "id": 5,
+      "course": "Manuelno testiranje softvera",
+      "startingDate": "15.04.2022",
+      "duration": "",
+      "price": "250"
+    },
+    {
+      "id": 6,
+      "course": "Automatsko testiranje softvera",
+      "startingDate": "15.04.2022",
+      "duration": "",
+      "price": "250"
+    }
+  ],
+  "rezervacije": [
+    {
+      "name": "Nikola",
+      "surname": "Simic",
+      "email": "nikola@mail.com",
+      "course": "Osnove programiranja",
+      "price": "250$",
+      "note": "",
+      "id": 9
+    },
+    {
+      "name": "Anita",
+      "surname": "Peric",
+      "email": "anita@yahoo.com",
+      "course": "Osnove programiranja",
+      "price": "250$",
+      "note": "",
+      "id": 12
+    },
+    {
+      "name": "Tamara",
+      "surname": "Tesic",
+      "email": "tt@gmail.com",
+      "course": "Web programiranje - Frontend",
+      "price": "350$",
+      "note": "",
+      "id": 13
+    }
+  ]
+}
