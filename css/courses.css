@@ -1,0 +1,100 @@
+.cover-part{
+    background-image: url('../img/courses-cover.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;    
+    padding-top: 90px;
+}
+
+.container-fluid p {
+    margin:0;
+}
+
+#second-hide{
+    display: none;
+}
+
+thead.second-table{
+    background-color: white;    
+}
+
+.table-part{
+    background-color: rgb(76, 139, 149);
+    min-height: auto;
+    overflow:hidden;
+}
+
+.res-button{
+    
+    color:white;
+    outline: 1px solid rgb(62,163,158)!important;
+    border: 1px solid rgb(49,158,150)!important;
+    font-size: 1em;    
+} 
+
+.bg-transparent:hover {
+    background-color: rgb(22,161,133)!important;
+}
+
+ /*modal window*/
+ .btn.close-modal {
+    background-color: rgb(27,188,156);
+    color: white;
+    border: none;    
+    padding: 10px 16px;    
+    cursor: pointer;
+    font-size: 14px;
+}
+.ex-btn {
+    font-size: 12px;    
+}
+
+.pict {
+    width: 100%;
+    height: 100%;    
+    border-radius: 7px;      
+}
+
+.modal-container {
+    width: 90%;
+    height: auto;
+}
+
+.gray-line {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    width: 250px;
+}
+
+.gray-line::before {
+    position:absolute;
+    top: calc(50%-1px);
+    right:0;
+    left:0;
+    content: "";
+    background-color: rgb(44,64,85); 
+    height: 4px; 
+    border-radius: 2px;
+}
+
+.star2 {
+    color: rgb(44,64,85);
+    z-index: 1;    
+    border-radius: 50%;
+    padding:8px;    
+    background: rgb(255, 255, 255);
+    font-size: 30px;  
+}
+/*form validation style*/
+#forma1 label.error, #forma2 label.error {  
+    color: red!important;
+}
+
+#sumPrices{
+    font-weight: 600;
+}
+
+
+
